@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipsy Removals</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  <section class="bg" id="bg">
+    <fieldset id="show-form" class="popup">
+      <form>
+        <button onclick="closepopup()" class="close">X</button>
+        <h1>REQUEST A QUOTE NOW</h1>
+        <div class="all-input">
+          <input type="text" placeholder="Enter Your Name">
+          <input type="text" placeholder="Enter Your Phone No.">
+          <input type="text" placeholder="Enter Your Email">
+          <input type="text" placeholder="Select Moving Date">
+          <input type="text" placeholder="Select Moving Date">
+          <input type="text" placeholder="Select Moving Date">
+        </div>
+        <!-- <textarea type="text" placeholder="Message"></textarea> -->
+        <button type="Submit" class="submit">SUBMIT</button>
+      </form>
+    </fieldset>
+  </section>
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="logo">
+        <img src="images/logo.png">
+
+      </div>
+      <div class="content">
+        <ul>
+          <li><a href="#">Services<i class="fa-solid fa-angle-down"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Delhi Removalists</a></li>
+                <li><a href="#">House Removalists</a></li>
+                <li><a href="#">Office Removalists</a></li>
+                <li><a href="#">Man with Van</a></li>
+                <li><a href="#">Furniture Removalists</a></li>
+                <li><a href="#">Two Men And Truck</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Interstate<i class="fa-solid fa-angle-down"></i></a>
+            <div class="sub-menu-1">
+              <ul>
+                <li><a href="#">Interstate Removalists</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <button onclick=" openpopup()">Get A Quote</button>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- mobile responsive section 1 -->
+  <div class="mb-nav">
+    <div class="mb-logo">
+      <img src="images/logo.png">
+    </div>
+    <div class="mb-content">
+      <i class="fa-solid fa-bars"></i>
+
+    </div>
+
+  </div>
+  <div class="mb-contents">
+    <ul>
+      <li><a href="#">Services</a>
+
+      </li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Interstate</a>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+
+    </ul>
+
+  </div>
+
+  <!-- slider code -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/bannernew1.jpeg">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/bannernew3.jpeg">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/Capture.PNG">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/bannerimg2.jpg"> 
+      
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- section 2 starts here -->
+  <section class="bg-1" id="bg-1">
+    <fieldset id="show-form-1" class="popup-1">
+      <form class="form-1">
+        <button onclick="closepopup1()" class="close">X</button>
+        <h1>GET QUICK QUOTE</h1>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="text" placeholder="Enter Your Phone No.">
+        <input type="text" placeholder="Enter Your Email">
+        <button type="Submit">SUBMIT</button>
+      </form>
+    </fieldset>
+  </section>
+  <section class="sec-2">
+    <div class="cards">
+      <h1>Our Services</h1>
+      <div class="all-boxes" data-aos="zoom-in-up"  data-aos-duration="3000">
+        <div class="text-img">
+          <div class="image-2">
+            <img src="images/img1.jpg" width="150px">
+          </div>
+          <div class="text-2">
+            <h2>Express Parcels</h2>
+            <p>The Express Parcels Vertical offers a wide range of domestic products and services catering to C2C and
+              B2B customers for documents and parcels of all sizes including part-truck-load shipments...</p>
+            <button onclick="openpopup1()" class="new-btn">Quick Quote</button>
+
+          </div>
+        </div>
+
+
+        <div class="text-img">
+          <div class="image-2">
+            <img src="images/img2.jpg" width="150px">
+          </div>
+          <div class="text-2">
+            <h2>International Shipments</h2>
+            <p>We provide shipping to over 220 destinations by leveraging our tie-ups with international partners and
+              our own offices in major commerce centers across the globe. Our wide range of international shipping
+              solutions are...</p>
+            <button onclick="openpopup1()">Quick Quote</button>
+          </div>
+        </div>
+
+        <div class="text-img">
+          <div class="image-2">
+            <img src="images/img3.jpg" width="150px">
+          </div>
+          <div class="text-2">
+            <h2>Integrated E-commerce Logistics</h2>
+            <p>Our Integrated E-commerce Logistics is an end-to-end solution specifically designed for e-commerce
+              companies who need quick and reliable logistics to gain a competitive edge. From pick-up...</p>
+            <button onclick="openpopup1()" class="new-btn">Quick Quote</button>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+  <!-- section2 mobile responsive -->
+  <div class="mb-boxes">
+    <div class="mb-text-img">
+      <div class="mb-image-2">
+        <img src="images/img1.jpg" width="280px">
+      </div>
+      <div class="mb-text-2">
+        <h2>Express Parcels</h2>
+        <p>The Express Parcels Vertical offers a wide range of domestic products and services catering to C2C and B2B
+          customers for documents and parcels of all sizes including part-truck-load shipments...</p>
+        <button>Get Quote</button>
+      </div>
+
+    </div>
+
+    <div class="mb-text-img">
+      <div class="mb-image-2">
+        <img src="images/img2.jpg" width="280px">
+      </div>
+      <div class="mb-text-2">
+        <h2>International Shipments</h2>
+        <p>We provide shipping to over 220 destinations by leveraging our tie-ups with international partners and our
+          own offices in major commerce centers across the globe. Our wide range of international shipping solutions
+          are...</p>
+        <button>Get Quote</button>
+      </div>
+
+    </div>
+
+    <div class="mb-text-img">
+      <div class="mb-image-2">
+        <img src="images/img3.jpg" width="280px">
+      </div>
+      <div class="mb-text-2">
+        <h2>Integrated E-commerce Logistics</h2>
+        <p>Our Integrated E-commerce Logistics is an end-to-end solution specifically designed for e-commerce companies
+          who need quick and reliable logistics to gain a competitive edge. From pick-up...</p>
+        <button>Get Quote</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- section 3 starts here -->
+  <section class="sec-3">
+    <div class="head-img" data-aos="zoom-in-up"  data-aos-duration="3000">
+      <div class="heading">
+        <h1>Our Unique Value Proposition</h1>
+        <div class="all-images-3">
+          <div class="image-3 new-img">
+            <img src="images/img4.png">
+            <p>30+ years of Experience</p>
+          </div>
+          <div class="image-3">
+            <img src="images/img5.png">
+            <p>Wide Spread Network</p>
+          </div>
+          <div class="image-3 new-img-1">
+            <img src="images/img-6.png">
+            <p>Modern Technology</p>
+          </div>
+          <div class="image-3 ">
+            <img src="images/img7.png">
+            <p>Customised Solutions</p>
+          </div>
+          <div class="image-3">
+            <img src="images/img8.png">
+            <p>Robust Infrastructure</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 3 mobile responsive starts here -->
+  <marquee>
+    <div class="mb-all-img">
+      <div class="mb-img-3">
+        <img src="images/img4.png">
+        <p>30+ years of Experience</p>
+      </div>
+      <div class="mb-img-3">
+        <img src="images/img5.png">
+        <p>Wide Spread Network</p>
+      </div>
+      <div class="mb-img-3">
+        <img src="images/img-6.png">
+        <p>Modern Technology</p>
+      </div>
+      <div class="mb-img-3">
+        <img src="images/img7.png">
+        <p>Customised Solutions</p>
+      </div>
+      <div class="mb-img-3">
+        <img src="images/img8.png">
+        <p>Robust Infrastructure</p>
+      </div>
+    </div>
+  </marquee>
+
+  <!-- section 4 starts here -->
+  <div class="heading-4" >
+    <h1>Services that power our solutions ecosystem</h1>
+  </div>
+  <div class="timeline" data-aos="zoom-in-up"  data-aos-duration="3000">
+    <div class="container left-container">
+      <img src="images/img6.jpg" style="width: 100px;">
+      <div class="text-box">
+        <h2>Express Parcel service</h2>
+
+        <p>Shipsy Limited is India's largest integrated 3rd Party Logistics Service Provider. We provide express parcel,
+          warehousing, cross-border, fulfilment, supply chain, freight & tracking. !</p>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="images/img6.jpg" style="width: 100px;">
+      <div class="text-box">
+        <h2>Warehousing</h2>
+
+        <p>The process of storing products until they are sold is called warehousing. In a warehouse, products are
+          stored securely and safely in an organised way. They can be easily located or tracked.</p>
+      </div>
+    </div>
+
+    <div class="container left-container">
+      <img src="images/img6.jpg" style="width: 100px;">
+      <div class="text-box">
+        <h2>Part Truckload Freight</h2>
+
+        <p>In PTL shipping, two or more companies share the truck load and accordingly pay for the logistics cost. The
+          transportation chargesare shared amongst shippers and each shipper only pays for the space occupied by them.
+          PTL pricing strategy is designed to cater to businesses that don’t often have truck full load to transport or
+          those businesses</p>
+      </div>
+    </div>
+
+    <div class="container right-container">
+      <img src="images/img6.jpg" style="width: 100px;">
+      <div class="text-box">
+        <h2>Full Truckload Freight</h2>
+
+        <p>Full Truckload (FTL) refers to the shipment of goods that require the full capacity of a truck or trailer.
+          FTL transportation is ideal for high-volume loads. It is used across industries, whenever large quantities of
+          goods need to be consolidated and transported efficiently.</p>
+      </div>
+    </div>
+  </div>
+  <!-- section 5 starts here -->
+  <section class="sec-5" >
+    <div class="text-box-5" >
+      <div class="heading-5">
+        <h1>Testimonials</h1>
+      </div>
+      <div class="boxes-5" id="gallery" data-aos="zoom-in-up"  data-aos-duration="3000">
+        <div class="card-5" id="card-5">
+          <blockquote>This company provided wonderful service in our big move to Hurstbridge. They made the process
+            stress free and very easy communication was great all through the process. The entire staff and movers we
+            dealt with were professional, available to answer questions, and all time lines were accurate! We would
+            strongly recommend Shipsy Removals</blockquote>
+          <h3>- ARACELI PEREZ</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I scheduled my local move with Shipsy Removals. I found Sunny from the depot easy to communicate
+            with and she understood my concerns as I was unable to be present during the move. I entrusted my most
+            treasured possessions to sanky and Nick, and they were fantastic and really concern for my properties. they
+            are best removalists company. Thank you</blockquote>
+          <h3>- JHONE CENE</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>Shipsy removals were very polite and professional with their work. They were very careful not to
+            damage any walls or personal belongings during their removal. On arrival at our new place they unpacked and
+            positioned all the items as requested.We had a very pleasant experience with Shipsy Relocations and would
+            give them 5 stars. Hire them for the house movers services.</blockquote>
+          <h3>- DAVID DOHERTY</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>4 days ago NEW Very professional mover ,we moved from one suburb to another. The packers were very
+            cheerful, obliging and did their job efficiently with perfection, The removalist the were wonderful,
+            including the packing of our piano, which was to be sent to another house. Call them for removalists
+            services.</blockquote>
+          <h3>- STUART ATKINSON</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I literally Can't fault the two lads from Shipsy Relocations who moved my home furniture! Huge
+            effort to do this kind of work! Most reassuring to see you guys maintain the safety and they were really
+            concerned about our property , healthy work environment avoiding potential risks to yourselves and others at
+            the property.</blockquote>
+          <h3>- CLAIRE SMITH</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I moved from a 2nd story apartment with no elevator to a ground-level house, Shipsy removals staff
+            were prompt and quickly got to work. All my furniture and belongings arrived to the new house safely and
+            they placed everything exactly where i wanted them, so my experience with the Shipsy movers were really fast
+            and professional.</blockquote>
+          <h3>- ROBERT ARNOLD</h3>
+        </div>
+
+
+        <div class="card-5">
+          <blockquote>This is my second move with Shipsy Relocation and I am still very impressed. I moved from a
+            apartment with very congested and narrow stairs. with a phone call 15 minutes before they get in my house.
+            They loaded the truck faster , I appreciated that they were careful with everything. It all went very
+            smoothly.</blockquote>
+          <h3>- ALBERT CHONGA</h3>
+        </div>
+
+
+        <div class="card-5">
+          <blockquote>The removalists came on time with all new stuff in the truck. They packed my stuff well with care.
+            Removalists were so proffesional all the time. They took care of my stuff and finished the job with no
+            damages . They were quick and efficient. Thanks to Shipsy relocations. Shipsy company was really smooth
+          </blockquote>
+          <h3>- SAM SAM</h3>
+        </div>
+
+
+        <div class="card-5">
+          <blockquote>I highly recommend Shipsy movers as they were excellent and professional the communication and
+            services were really convenient for us. Our moving was very quick and hassle-free. sanky and his companion
+            took really good care of our things and complete the job quickly and efficiently.</blockquote>
+          <h3>- CARLOS FONTES</h3>
+        </div>
+
+        <div class="card-5" id="card-5">
+          <blockquote>This company provided wonderful service in our big move to Hurstbridge. They made the process
+            stress free and very easy communication was great all through the process. The entire staff and movers we
+            dealt with were professional, available to answer questions, and all time lines were accurate! We would
+            strongly recommend Shipsy Removals</blockquote>
+          <h3>- ARACELI PEREZ</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I scheduled my local move with Shipsy Removals. I found Sunny from the depot easy to communicate
+            with and she understood my concerns as I was unable to be present during the move. I entrusted my most
+            treasured possessions to sanky and Nick, and they were fantastic and really concern for my properties. they
+            are best removalists company. Thank you</blockquote>
+          <h3>- JHONE CENE</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>Shipsy removals were very polite and professional with their work. They were very careful not to
+            damage any walls or personal belongings during their removal. On arrival at our new place they unpacked and
+            positioned all the items as requested.We had a very pleasant experience with Shipsy Relocations and would
+            give them 5 stars. Hire them for the house movers services.</blockquote>
+          <h3>- DAVID DOHERTY</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>4 days ago NEW Very professional mover ,we moved from one suburb to another. The packers were very
+            cheerful, obliging and did their job efficiently with perfection, The removalist the were wonderful,
+            including the packing of our piano, which was to be sent to another house. Call them for removalists
+            services.</blockquote>
+          <h3>- STUART ATKINSON</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I literally Can't fault the two lads from Shipsy Relocations who moved my home furniture! Huge
+            effort to do this kind of work! Most reassuring to see you guys maintain the safety and they were really
+            concerned about our property , healthy work environment avoiding potential risks to yourselves and others at
+            the property.</blockquote>
+          <h3>- CLAIRE SMITH</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I moved from a 2nd story apartment with no elevator to a ground-level house, Shipsy removals staff
+            were prompt and quickly got to work. All my furniture and belongings arrived to the new house safely and
+            they placed everything exactly where i wanted them, so my experience with the Shipsy movers were really fast
+            and professional.</blockquote>
+          <h3>- ROBERT ARNOLD</h3>
+        </div>
+
+
+        <div class="card-5">
+          <blockquote>This is my second move with Shipsy Relocation and I am still very impressed. I moved from a
+            apartment with very congested and narrow stairs. with a phone call 15 minutes before they get in my house.
+            They loaded the truck faster , I appreciated that they were careful with everything. It all went very
+            smoothly.</blockquote>
+          <h3>- ALBERT CHONGA</h3>
+        </div>
+
+
+        <div class="card-5">
+          <blockquote>The removalists came on time with all new stuff in the truck. They packed my stuff well with care.
+            Removalists were so proffesional all the time. They took care of my stuff and finished the job with no
+            damages . They were quick and efficient. Thanks to Shipsy relocations. Shipsy company was really smooth
+          </blockquote>
+          <h3>- SAM SAM</h3>
+        </div>
+
+        <div class="card-5">
+          <blockquote>I highly recommend Shipsy movers as they were excellent and professional the communication and
+            services were really convenient for us. Our moving was very quick and hassle-free. sanky and his companion
+            took really good care of our things and complete the job quickly and efficiently.</blockquote>
+          <h3>- CARLOS FONTES</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- mobile responsive section-5 -->
+  <section class="mb-sec-5">
+    <div class="mb-head-5">
+      <h1>Testimonials</h1>
+    </div>
+    <div class="mb-boxes-5" id="mb-gallery">
+      <div class="mb-card-5" id="mb-card">
+        <blockquote>This company provided wonderful service in our big move to Hurstbridge. They made the process stress
+          free and very easy communication was great all through the process. The entire staff and movers we dealt with
+          were professional, available to answer questions, and all time lines were accurate! We would strongly
+          recommend Shipsy Removals</blockquote>
+        <h3>- ARACELI PEREZ</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>I scheduled my local move with Shipsy Removals. I found Sunny from the depot easy to communicate with
+          and she understood my concerns as I was unable to be present during the move. I entrusted my most treasured
+          possessions to sanky and Nick, and they were fantastic and really concern for my properties. they are best
+          removalists company. Thank you</blockquote>
+        <h3>- JHONE CENE</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>Shipsy removals were very polite and professional with their work. They were very careful not to
+          damage any walls or personal belongings during their removal. On arrival at our new place they unpacked and
+          positioned all the items as requested.We had a very pleasant experience with Shipsy Relocations and would give
+          them 5 stars. Hire them for the house movers services.</blockquote>
+        <h3>- DAVID DOHERTY</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>4 days ago NEW Very professional mover ,we moved from one suburb to another. The packers were very
+          cheerful, obliging and did their job efficiently with perfection, The removalist the were wonderful, including
+          the packing of our piano, which was to be sent to another house. Call them for removalists services.
+        </blockquote>
+        <h3>- STUART ATKINSON</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>I literally Can't fault the two lads from Shipsy Relocations who moved my home furniture! Huge effort
+          to do this kind of work! Most reassuring to see you guys maintain the safety and they were really concerned
+          about our property , healthy work environment avoiding potential risks to yourselves and others at the
+          property.</blockquote>
+        <h3>- CLAIRE SMITH</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>I moved from a 2nd story apartment with no elevator to a ground-level house, Shipsy removals staff
+          were prompt and quickly got to work. All my furniture and belongings arrived to the new house safely and they
+          placed everything exactly where i wanted them, so my experience with the Shipsy movers were really fast and
+          professional.</blockquote>
+        <h3>- ROBERT ARNOLD</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>This is my second move with Shipsy Relocation and I am still very impressed. I moved from a apartment
+          with very congested and narrow stairs. with a phone call 15 minutes before they get in my house. They loaded
+          the truck faster , I appreciated that they were careful with everything. It all went very smoothly.
+        </blockquote>
+        <h3>- ALBERT CHONGA</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>The removalists came on time with all new stuff in the truck. They packed my stuff well with care.
+          Removalists were so proffesional all the time. They took care of my stuff and finished the job with no damages
+          . They were quick and efficient. Thanks to Shipsy relocations. Shipsy company was really smooth</blockquote>
+        <h3>- SAM SAM</h3>
+      </div>
+
+      <div class="mb-card-5">
+        <blockquote>I highly recommend Shipsy movers as they were excellent and professional the communication and
+          services were really convenient for us. Our moving was very quick and hassle-free. sanky and his companion
+          took really good care of our things and complete the job quickly and efficiently.</blockquote>
+        <h3>- CARLOS FONTES</h3>
+      </div>
+    </div>
+  </section>
+
+<!-- section 6 starts here -->
+<section class="sec-6">
+  <div class="text-form">
+    <div class="text">
+      <h1>REQUEST A FREE QUOTE NOW</h1>
+      <p>Fill in the form below and we will get back to you ASAP.</p>
+      <p> <i class="fa-solid fa-phone fa-fade"></i>1300 406 741</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook fb"></i>
+        <i class="fa-brands fa-square-instagram insta"></i>
+      </div>
+    </div>
+    <div class="form">
+      <div class="input-box">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Email">
+    </div>
+
+    <div class="input-box">
+      <input type="number" placeholder="Phone Number">
+      <input type="date" placeholder="Select Moving Date">
+    </div>
+
+    <div class="input-box">
+      <input type="text" placeholder="Moving From">
+      <input type="text" placeholder="Moving To">
+    </div>
+    <div class="input-box">
+    <textarea rows="10" cols="77" placeholder="Message"></textarea>
+    </div>
+    <div class="btn-6">
+      <button type="submit">Submit Now</button>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- section 7 starts here -->
+
+
+  <div class="heading-7">
+    <h1>Why <span>Choose Us ?</span> </h1>
+  </div>
+  <section class="sec-7">
+  <div class="img-text-7" data-aos="zoom-in-up"  data-aos-duration="3000">
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg1.png">
+      <h3>40K+ INDIVIDUAL MOVES</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg2.png">
+      <h3>10+ YEARS EXPERIENCE</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg3.png">
+      <h3>97% CUSTOMER REFERRAL RATE</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg4.png">
+      <h3>SATISFACTION GUARANTEE</h3>
+    </div> 
+  </div>
+    
+
+
+</div>
+
+
+</section>
+
+<section class="sec-7">
+  <div class="img-text-7" data-aos="zoom-in-up"  data-aos-duration="3000">
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg5.webp">
+      <h3>FLEXIBLE PRICING & REMOVAL</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg6.webp">
+      <h3>NO HIDDEN
+        COST</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg7.webp">
+      <h3>ONLINE BOOKING AVAILABLE</h3>
+    </div> 
+  </div>
+
+  <div class="card-6">
+    <div class="box-6">
+      <img src="images/svg8.webp">
+      <h3>FLEXIBLE MOVING HOURS</h3>
+    </div> 
+  </div>
+    
+
+
+</div>
+
+
+</section>
+<!-- section11 starts here -->
+<!-- <div class="heading-8">
+  <h1>Cheap Services</h1>
+</div> -->
+<section class="sec-11">
+  <div class="img-txt-11">
+    <div class="content-11">
+      <div class="img-11">
+        <img src="images/bannernew6.jpg">
+      </div>
+      <div class="txt-11">
+        <h1>Cheap Services</h1>
+        <p>Are you looking for reliable and effective Cheap removalists to help you transition between homes with ease? Look no further than Shipsy Removals. We bring you the best removalists in India at an unbeatable price. Our rates are tailored to suit any budget, and our drivers convey your items with skill and care.</p>
+        <p>We understand that moving is a stressful time for anyone, which is why we strive to make the process smooth and hassle-free. With us, you’ll get a strong and capable team of professionals who take all the guesswork out of removals. We start by carefully assessing your needs and work diligently to ensure every single item is packed safely so that it arrives at its destination in one piece. For added convenience, we can issue a quote beforehand so you can accurately plan the costs of your move.Contact us for moving services India</p>
+        <p>Don’t put your trust in just any moving service – choose Shipsy Removals and enjoy a transformative removals experience that feels like home in no time at all! Our attentive service will make all the difference when it comes to getting from A to B quickly and efficiently – let us be part of this special journey! Contact us today for more information about our competitive rates, various services, and convenient scheduling options - taking your stress away so you can focus on other exciting aspects of relocating!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section 8 starts here  -->
+<div class="heading-8">
+  <h1>Frequently Asked Questions</h1>
+</div>
+<section class="sec-8">
+  <div class="accordion" data-aos="zoom-in-up"  data-aos-duration="3000">
+    <div class="text-content">
+      <div class="text-8" onclick="toggleContent()">
+        <p>Is it possible for you to provide full-service moving, including disassembling and
+          reassembling my belongings?</p>
+        <img src="images/down.png" id="img-1">
+      </div>
+  <div class="content-8" id="show-content-1">
+    <p>You must indicate the items you want to move and our team of professional removalists and movers will take care of these for you at the time of the removal. The price for the entire service is included within the quote.</p>
+  </div>
+    </div>
+
+
+    <div class="text-content">
+      <div class="text-8" onclick="toggleContent2()">
+        <p>What is the size of a cubic meter?</p>
+        <img src="images/down.png" id="img-2">
+      </div>
+  <div class="content-8" id="show-content-2">
+    <p>A cubic metre is measured as 1m x 1m x1m. The maximum size for a container is around 38m3. Contact Aires Removals for know more.</p>
+  </div>
+    </div>
+
+    <div class="text-content">
+      <div class="text-8" onclick="toggleContent3()">
+        <p>W
+          
+          
+          hen do I need to make a booking for my move?</p>
+        <img src="images/down.png" id="img-3">
+      </div>
+  <div class="content-8" id="show-content-3">
+   <p>We strongly recommend to make reservations at the earliest opportunity to be sure of that you will be charged the right price and reserve the space and give you peace of mind. This will also prevent any future price hikes.</p>
+  </div>
+    </div>
+
+    <div class="text-content">
+      <div class="text-8" onclick="toggleContent4()">
+        <p>What are the benefits of hiring a removals company?</p>
+        <img src="images/down.png" id="img-4">
+      </div>
+  <div class="content-8" id="show-content-4">
+   <p>Moving can be a stressful and difficult task, especially if you are moving to another country. Removals companies make the process of moving much easier and less stressful. Hiring the right removals company is crucial to ensure that your belongings will be handled with care.
+    There are many benefits of hiring a removals company. Companies provide affordable rates, they offer packing services, they have more experience in handling delicate items, and they offer packing materials for their customers as well as insurance for your items. Hire Removalists now.</p>
+  </div>
+    </div>
+
+    <div class="text-content">
+      <div class="text-8" onclick="toggleContent5()">
+        <p>How much does it cost to move my furniture?</p>
+        <img src="images/down.png" id="img-5">
+      </div>
+  <div class="content-8" id="show-content-5">
+   <p>Moving your furniture is a time-consuming process. It can take days or weeks to complete the process, depending on how much you have to move and how far you are moving it. The cost of moving your furniture will depend on the distance, the weight of your items, and whether or not you need any packing services. Contact Aires Removals for the Best Rates.</p>
+  </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- footer starts here -->
+
+<footer>
+  <div class="img-text-9">
+    <div class="img-9">
+      <img src="images/logo.png" width="100px" >
+      <h2>Shipsy Removals</h2>
+      <p>Shipsy123@gmail.com</p>
+      <p><i class="fa-solid fa-phone fa-fade"></i>1300 406 741</p>
+    </div>
+    <div class="text-9">
+      <h1>USEFUL SERVICES</h1>
+     <p>-House Removalists</p>
+     <p>-India Removalists</p>
+     <p>-Office Removalists</p>
+     <p>-Furniture Removalists</p>
+     <p>- Man with Truck</p>
+     
+    </div>
+    <div class="text-9">
+      <h1>RELOCATING</h1>
+      <p>-Interstate Removal</p>
+      <p>-Local</p>
+      <p>-Get Estimated</p>
+      <p>-Request a free quote</p>
+      <p>-Claim Offer Now</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+ 
+
+ <script src="script.js"></script>
+
+</body>
+
+</html>
